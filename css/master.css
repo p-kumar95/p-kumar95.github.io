@@ -1,8 +1,41 @@
+body{
+  background-image:url("/Users/pkumar/Desktop/portfolio-website/images/website_background.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
 #main-title{
-  color: teal;
+  color: black;
   text-align: center;
 }
 
-p{
+#profile-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  box-shadow: 10px 10px grey;
+}
+
+#project-1{
+  border: 3px solid black;
+  margin: auto;
+  margin-top: 10px;
+}
+
+p, h1{
   text-align: center;
+}
+
+i.fa-linkedin, i.fa-github{
+ font-size: 100px;
+}
+
+
+footer{
+  display: table;
 }
