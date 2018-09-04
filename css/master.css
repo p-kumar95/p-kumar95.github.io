@@ -21,7 +21,26 @@ body{
   box-shadow: 10px 10px grey;
 }
 
-#project-1{
+
+/* projects page*/
+#hangman, #twenty-4-hr, #profiles, #testing-profiles{
+  margin: 10px;
+
+}
+
+#twenty-4-hr{
+
+}
+
+#profiles{
+
+}
+
+#testing-profiles{
+
+}
+
+.project{
   border: 3px solid black;
   margin: auto;
   margin-top: 10px;
